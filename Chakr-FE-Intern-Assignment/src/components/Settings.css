@@ -1,0 +1,58 @@
+/* Styles for the Settings component */
+
+.settings-container {
+  display: flex;
+  height: 100vh;
+}
+
+.settings-sidebar {
+  width: 200px;
+  background-color: #f4f4f4;
+  padding: 1rem;
+}
+
+.settings-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.settings-sidebar ul li {
+  padding: 1rem 0;
+  cursor: pointer;
+}
+
+.settings-content {
+  flex: 1;
+  padding: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 1rem;
+}
+
+form input {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+form button {
+  padding: 0.5rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+.settings-content button {
+  margin-right: 1rem;
+}

@@ -1,0 +1,21 @@
+.sidebar {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  width: 200px;
+  height: 100vh;
+}
+
+.sidebar-header {
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar nav ul li {
+  padding: 1rem 0;
+  cursor: pointer;
+}

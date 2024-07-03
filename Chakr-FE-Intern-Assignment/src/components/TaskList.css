@@ -1,0 +1,11 @@
+.task-list {
+  flex: 1;
+  padding: 1rem;
+}
+
+.task-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}

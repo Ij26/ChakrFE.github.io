@@ -1,0 +1,62 @@
+/* General styles */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+}
+
+.content-area {
+  flex: 1;
+  padding: 1rem;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.sidebar {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  width: 200px;
+}
+
+.task-list {
+  flex: 1;
+  padding: 1rem;
+}
+
+.task-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+/* Theme styles */
+.app-container.light {
+  background-color: #fff;
+  color: #000;
+}
+
+.app-container.dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.app-container.purple-light {
+  background-color: #f3e5f5;
+  color: #000;
+}
+
+.app-container.purple-dark {
+  background-color: #4a148c;
+  color: #fff;
+}

@@ -1,0 +1,38 @@
+.todo-list {
+  padding: 1rem;
+}
+
+.task-input {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.task-input input {
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+  flex: 1;
+}
+
+.task-input button {
+  padding: 0.5rem 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  border-bottom: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+tbody td {
+  border-bottom: 1px solid #ddd;
+  padding: 0.5rem;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
